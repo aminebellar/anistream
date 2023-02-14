@@ -1,0 +1,252 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+nav{
+    background-color: #1966d3;
+}
+.bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+}
+.logo img{
+    height: 60px;
+    width: 60px;
+}
+.logo a{
+    text-decoration: none;
+    color: white;
+}
+
+.items ul{
+    display: flex;
+    align-items: center;
+}
+.items li{
+    list-style: none;
+}
+.items a{
+    text-decoration: none;
+    color: white;
+    padding: 40px  40px;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+.items a:hover{
+    text-decoration: underline;
+}
+
+.buttons a{
+    text-decoration: none;
+    background-color: white;
+    color: #1966d3;
+    margin: 20px;
+    padding: 9px 20px;
+    border-radius: 20px;
+    font-weight: 900;
+}
+.buttons a:hover{
+    background-color: black;
+    color: white;
+}
+#section1{
+    background-color: black;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.s1{
+    text-align: center;
+}
+.s1 h1{
+    margin-bottom: 20px;
+}
+.s1 img{
+    width: 300px;
+}
+#section2{
+    background-color: #407cd1;
+    color: white;
+    padding-top: 20px;
+}
+.s2{
+   text-align: center;
+}
+.title{
+    font-size: 30px;
+    text-transform: capitalize;
+    font-weight: 900;
+    font-family: 'Courier New', Courier, monospace;
+}
+hr {
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 10px;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 70px;
+}
+
+.img1{
+    display: flex;
+    justify-content: space-around;
+   padding-bottom: 50px;
+}
+.img1 img{
+    width: 400px;
+    height: 250px;
+}
+.img1 img:hover{
+    box-shadow: 5px 5px 5px 5px black;
+    transition: 0.5s all ease-in;
+}
+.img1 p{
+    color: white;
+    margin-top: 20px;
+    font-size: 30px;
+    text-transform: capitalize;
+    font-weight: 900;
+    font-family: 'Courier New', Courier, monospace;
+}
+.img1 a{
+    text-decoration: none;
+}
+.img2{
+    display: flex;
+    justify-content: space-around;
+   margin-right: 225px;
+   margin-left: 225px;
+}
+.img2 img{
+    width: 400px;
+    height: 250px;
+}
+.img2 img:hover{
+    box-shadow: 5px 5px 5px 5px black;
+    transition: 0.5s all ease-in;
+}
+.img2 p{
+    color: white;
+    margin-top: 20px;
+    font-size: 30px;
+    text-transform: capitalize;
+    font-weight: 900;
+    font-family: 'Courier New', Courier, monospace;
+}
+.img2 a{
+    text-decoration: none;
+}
+#section3{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.s3 h1{
+    margin-bottom: 20px;
+    text-align: center;
+}
+.title2{
+    color: #407cd1;
+    font-size: 30px;
+    text-transform: capitalize;
+    font-weight: 900;
+    font-family: 'Courier New', Courier, monospace;
+}
+#l2 {
+    border: 2px solid #407cd1;
+    background-color: #407cd1;
+    border-radius: 10px;
+    width: 20%;
+    margin-bottom: 70px;
+}
+.container{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
+.container1 h2{
+    margin-bottom: 20px;
+}
+.container1{
+    color: #407cd1;
+    background-color: white;
+    width:fit-content;
+    text-align: center;
+    padding: 40px;
+    border: 3px solid #407cd1;
+    border-radius: 20px;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 900;
+    font-family: 'Courier New', Courier, monospace;
+    box-shadow: 5px 5px 5px 5px #9b9b9b;
+}
+.cash{
+    color: black;
+    margin-bottom: 60px;
+    font-style: italic;
+}
+.container1 li{
+    margin-bottom: 10px;
+    text-align: start;
+}
+.container1:hover{
+    background-color: #407cd1;
+    color: white;
+}
+    footer{
+        background-color: #1966d3;
+    }
+    .bar-footer{
+        display: flex;
+        align-items: center;
+
+    }
+    .footer-logo{
+        display: flex;
+        align-items: center;
+        font-size: 25px;
+        margin-right: 60px;
+    }
+    .footer-logo img{
+        height: 60px;
+        width: 60px;
+    }
+    .footer-logo a{
+        text-decoration: none;
+        color: white;
+    }
+    
+    .items-footer ul{
+        display: flex;
+        align-items: center;
+    }
+    .items-footer li{
+        list-style: none;
+    }
+    .items-footer a{
+        margin-left: 45px;
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: 900;
+    }
+    .items-footer a:hover{
+        text-decoration: underline;
+    }
+
+
+
+
+
+
